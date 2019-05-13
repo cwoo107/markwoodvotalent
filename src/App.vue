@@ -16,6 +16,59 @@
       </b-col>
     </b-container-fluid>
 
+    <div>
+
+        <img src="./assets/VOICE OVER_Page_1.png" width="500" height="auto">
+
+    </div>
+    <p id='titles'>
+      <b-container>
+        <b-row>
+      
+      <b-col>
+        <h5>Commercial Demo</h5>
+        <audio src="./assets/MarkWoodC1.mp3" type="audio/mpeg" controls></audio>
+      </b-col>
+      
+      <b-col>
+        <h5>Narration Demo</h5>
+        <audio src="./assets/MarkWoodN.mp3" type="audio/mpeg" controls></audio>
+      </b-col>
+      
+        </b-row>
+      </b-container>
+    </p>
+    <p>
+      <h4 style="padding-top: 40px; padding-bottom: 15px;"> About Me </h4>
+      <b-container>
+        <b-row>
+          <b-col>
+            <img src="./assets/Mark.jpg" width="250px" height='auto' id='right'>
+          </b-col>
+          <b-col>
+          <div id='left'>
+			I am located in the East San Francisco Bay Area. My voice has been described as, “A strong voice that is deep and inviting with a sharp, confident tone.”
+			<p>
+			My past experience in radio as well as many years of public speaking and in teaching  (MA in education) provide a great foundation for your voice over project. I will give your project that confidence and trust you are looking for. Contact me today to discuss how we can bring your project to life.</p>
+		</div>
+          </b-col>
+          
+        </b-row>
+      </b-container>
+    </p>
+    <p>
+      <h4 style="padding-top: 40px; "> Contact </h4>
+      <b-container>
+        <b-row>
+          <b-col>
+	<p><h5>Email: <i>markwoodvotalent@gmail.com</i></h5></p>
+	<p><h5>Phone: 925-206-9070</h5></p>
+          </b-col>
+        </b-row>
+      </b-container>
+    </p>
+
+
   </div>
 </template>
 
@@ -56,11 +109,15 @@ export default {
   margin-top: 15px;
   margin-bottom: 5px;
 }
-
+#titles {
+  margin-top: 25px;
+}
 h1, h2 {
   font-weight: normal;
 }
-
+#left {
+  text-align: left !important;
+}
 ul {
   list-style-type: none;
   padding: 0;
